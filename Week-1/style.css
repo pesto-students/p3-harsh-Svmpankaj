@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap%27);");
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Sidebar  */
+
+.sidebar {
+    height: 100%;
+    width: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: fixed;
+    overflow: auto;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+.sidebar-item {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.album-header {
+
+    margin-left: 25px;
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    align-items: center;
+
+}
+
+.album-art {
+
+    padding: 34px;
+
+}
+
+.album-title {
+
+    margin-bottom: 50px;
+    color: whitesmoke;
+
+}
+
+.album.option {
+
+    margin-top: 125px;
+    color: whitesmoke;
+}
+
+.playlist {
+
+    margin-left: 25px;
+    padding: 25px;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td {
+
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+tr:nth-child(even) {background-color: rgb(240, 240, 240);}
+
+.player-footer {
+
+    height: 75px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: rgb(67, 104, 156);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+
+}
+
+.player-button {
+
+    position: relative;
+    float: left;
+    left: 950px;
+}

@@ -1,0 +1,48 @@
+.heading{
+    
+    text-align: center;
+    
+    margin-top: 100px;
+    
+}
+
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 70px;
+    
+
+}
+
+.first {
+    background: rgb(255, 255, 255);
+    height: 100px;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.second {
+    background: rgb(255, 255, 255);
+    height: 100px;
+    width: 40%;
+    display: inline-block;
+    float: right;
+    justify-content: space-between;
+
+
+}
+
+.fcontainer{
+    
+    
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 100px;
+    
+    
+}
+
+
