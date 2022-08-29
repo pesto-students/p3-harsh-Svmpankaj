@@ -20,5 +20,5 @@ console.log(solution(arr, x));
 /*
 Output:- 2
 Time complexity: O(n^3)
-Space Complexity: O(1)
+
 */
