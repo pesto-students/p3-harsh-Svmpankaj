@@ -1,0 +1,43 @@
+.fcontainer{
+    border: 2px solid grey;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    
+}
+
+nav{
+    background-color: grey;
+}
+
+.fitem {
+    /* background-color: red; */
+    /* border: 2px solid rgb(5, 5, 5); */
+    margin: 12px;
+    width: 350px;
+    height: 120;
+}
+
+.mid_nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+/* .mid_nav~li{
+    justify-content: space-between;
+} */
+
+a {
+    color: blue;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.end_nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
